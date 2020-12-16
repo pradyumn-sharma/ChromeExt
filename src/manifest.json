@@ -1,0 +1,31 @@
+{
+    "name": "Twitch -> Spotify",
+    
+    "short_name" : "SpoTwitch",
+
+    "manifest_version": 2,
+    "version": "0.1",
+
+    "description": "Helps listen along the streamer's spotify queue.",
+    "permissions": ["background",
+        "cookies", "tabs", "http://*/*.twitch.tv/*", "https://*/*.twitch.tv/*"
+   ],
+
+    "icons": {
+        "16": "/assets/images/logo/twitch-tv-16.png",
+        "48": "/assets/images/logo/twitch-tv-48.png",
+        "128": "/assets/images/logo/twitch-tv-128.png"
+    },
+
+    "content_security_policy": "script-src 'self' 'unsafe-eval' https://ssl.google-analytics.com https://mts0.googleapis.com https://maps.googleapis.com https://apis.google.com/; object-src 'self'",
+
+    "background": {
+        "scripts": ["/assets/scripts/ext/background-pageaction.js"],
+        "persistent": false
+    },
+    "page_action": {
+        "default_icon": "/assets/images/logo/twitch-tv-16.png",
+        "default_title": "Salesforce Schema Explorer"
+    }
+
+}
