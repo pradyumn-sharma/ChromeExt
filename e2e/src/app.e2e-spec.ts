@@ -10,7 +10,7 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('relocate-old-ext app is running!');
+    expect(page.getTitleText()).toEqual('spotwitch app is running!');
   });
 
   afterEach(async () => {

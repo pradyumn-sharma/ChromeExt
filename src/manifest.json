@@ -8,7 +8,7 @@
 
     "description": "Helps listen along the streamer's spotify queue.",
     "permissions": ["background",
-        "cookies", "tabs", "http://*/*.twitch.tv/*", "https://*/*.twitch.tv/*"
+        "cookies", "tabs", "http://*/*.twitch.tv/*", "https://*/*.twitch.tv/*", "activeTab"
    ],
 
     "icons": {
